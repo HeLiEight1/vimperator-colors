@@ -10,10 +10,12 @@ hi CompMsg margin-left: 16px;
 hi ErrorMsg background: #D7005F; color: #D0CFD0; font-weight: bold;
 hi Filter color: #77438F; background: #262426;
 hi StatusLine color: #D0CFD0; background: transparent; font-weight: normal;
-hi Hint font-family: terminus; font-size: 9px; font-weight: bold; color: white; background-color: red; border-color: ButtonShadow; border-width: 0px; border-style: solid; padding: 0px 1px 0px 1px;
+"hint div
+hi Hint font:"DejaVu Sans Mono"; font-size: 18px; color: brown; background-color: grey;background-opacity: 70%;background-padding: 3px; background-width: 100%;background-height: 100%;
+
 hi Hint::after content: attr(number);
 hi HintActive background-color: #88FF00; color: black;
-hi HintElem background-color: yellow; color: black;
+hi HintElem background-color: #D0CFD0; color: black;
 hi HintImage opacity: .5;
 hi URL text-decoration: none; color: #87FF00;
 hi ModeMsg color: white; background: #3E6700; border-radius: 1px; padding: 0px 5px;
@@ -28,3 +30,7 @@ hi NonText color: #B973FF; min-height: 16px; padding-left: 2px;
 hi Title background-color: #D7005F; color: #D0CFD0; font-weight: bold;
 hi Indicator color: #D7005F;
 hi ContentSeparator border-top: 1px solid #262426; display: -moz-box;
+
+"caret
+set! ui.caretWidth=4
+set! ui.caretBlinkTime=250
